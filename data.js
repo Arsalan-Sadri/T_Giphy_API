@@ -9,3 +9,6 @@ const QUERY_TERM = "cars";
 const PARAM3 = "q=" + QUERY_TERM;
 
 module.exports = axios.get(BASE_URL + "?" + PARAM1 + "&" + PARAM2 + "&" + PARAM3);
+
+// postman testing:
+// https://api.giphy.com/v1/gifs/search?api_key=2MnPgQlfrGbyTj7jZyIqCk6SdjMeFSPE&limit=10&q=nature
